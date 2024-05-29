@@ -1,0 +1,45 @@
+.hero{
+    background-image: url(../images/my-birthday-cake-in-chocolate-flavor-g1mft9g3pvhfepiv.jpg);
+    background-size:cover;
+    height: 100vh;
+    padding: 5.6vw;
+    background-repeat: no-repeat;
+    position: relative;
+.container{
+    padding-top: 80px ;
+    position: relative;
+}
+
+
+&::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: .5;
+
+}
+
+    &__logo{
+        display: block;
+        width: 80px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    &__text{
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: bold;
+        span{
+            display: block;
+        }
+    }
+
+
+}

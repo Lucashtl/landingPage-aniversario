@@ -1,0 +1,25 @@
+.aniversario{
+    padding: 40px;
+    background-image: linear-gradient(#636e72, #0c272e );
+
+    .container{
+        display: flex;
+        max-width: 800px;
+        gap: 40px;
+        align-items: center;
+    }
+
+    &__details{
+        &__title{
+            color: white;
+            margin-bottom: 16px;
+        }
+        &__text{
+            color: white;
+        }
+    }
+
+    &__logo{
+        height: 250px;
+    }
+}
